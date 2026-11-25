@@ -26,6 +26,7 @@ claimed to be continuously active. DHCP addresses must be checked before reuse.
 | Results and learning summaries | [Phase 2 report](05-Phase2-Final-Report/REPORT.md) / [printable PDF](output/pdf/Phase2-Final-Report.pdf) |
 | Evaluation-day commands | [Demo checklist](05-Phase2-Final-Report/DEMO-CHECKLIST.md) |
 | Viva study | [53 questions and answers](05-Phase2-Final-Report/VIVA-GUIDE.md) / [PDF](output/pdf/Viva-Guide.pdf) |
+| Beginner Wireshark demo | [Vridhi's capture steps, filters and Hinglish explanation](05-Phase2-Final-Report/WIRESHARK-QUICKSTART.md) |
 | Full teacher-request command book | [Roles, expected results and rollback](05-Phase2-Final-Report/LIVE-COMMANDS.md) / [PDF](output/pdf/Live-Commands.pdf) |
 | Hostel-to-classroom / changed IPs | [Restart procedure](05-Phase2-Final-Report/CLASSROOM-RESTART.md) / [PDF](output/pdf/Classroom-Restart.pdf), [configuration helper](03-Source-Code/classroom-prepare.py) |
 | Updated topology and inventory | [Phase 2 architecture](01-Architecture-Document/Phase2-Architecture.md) |
