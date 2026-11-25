@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="1000" height="680" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1000 680" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1000" height="680"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-680)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="32" y="643" style="font-family: Helvetica-Bold; font-size: 24px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,1286) scale(1,-1)">TEAM .VENV | PHASE 2 TOPOLOGY</text>
+			<text x="32" y="618" style="font-family: Helvetica; font-size: 14px;fill: rgb(34%,42%,47%); stroke:none;" transform="translate(0,1236) scale(1,-1)">Three physical Macs; logical roles combined. Classroom session: 25 November 2026.</text>
+			<rect x="260" y="465" width="230" height="100" rx="10" ry="10" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="276" y="538" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,1076) scale(1,-1)">Primary DNS / Docker</text>
+			<text x="276" y="516" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,1032) scale(1,-1)">Anshuman: 10.7.16.25</text>
+			<text x="276" y="497" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,994) scale(1,-1)">UDP + TCP 53</text>
+			<rect x="535" y="465" width="230" height="100" rx="10" ry="10" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="551" y="538" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,1076) scale(1,-1)">Backup DNS / Docker</text>
+			<text x="551" y="516" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,1032) scale(1,-1)">Vridhi: 10.7.2.240</text>
+			<text x="551" y="497" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,994) scale(1,-1)">UDP + TCP 53</text>
+			<rect x="30" y="280" width="170" height="110" rx="10" ry="10" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="46" y="363" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,726) scale(1,-1)">Client</text>
+			<text x="46" y="341" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,682) scale(1,-1)">Any team Mac</text>
+			<text x="46" y="322" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,644) scale(1,-1)">Resolve name, then</text>
+			<text x="46" y="303" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,606) scale(1,-1)">connect to edge</text>
+			<rect x="260" y="280" width="230" height="110" rx="10" ry="10" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="276" y="363" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,726) scale(1,-1)">Original nginx edge</text>
+			<text x="276" y="341" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,682) scale(1,-1)">Anshuman: 10.7.16.25</text>
+			<text x="276" y="322" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,644) scale(1,-1)">HTTPS / TLS / TCP 443</text>
+			<rect x="535" y="280" width="230" height="110" rx="10" ry="10" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(100%,95%,87%); fill-rule: evenodd;"/>
+			<text x="551" y="363" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,726) scale(1,-1)">Standby nginx edge</text>
+			<text x="551" y="341" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,682) scale(1,-1)">Vridhi: 10.7.2.240</text>
+			<text x="551" y="322" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,644) scale(1,-1)">HTTPS / TLS / TCP 443</text>
+			<polyline points="115 390, 115 515, 260 515" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polygon points="260 515, 251 511, 251 519" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,41%,45%); fill-rule: evenodd;"/>
+			<polyline points="115 515, 115 585, 650 585, 650 565" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polygon points="650 565, 646 574, 654 574" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,41%,45%); fill-rule: evenodd;"/>
+			<text x="32" y="427" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,41%,45%); stroke:none;" transform="translate(0,854) scale(1,-1)">DNS name lookup</text>
+			<polyline points="200 347, 260 347" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="260 347, 251 343, 251 351" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,41%,45%); fill-rule: evenodd;"/>
+			<text x="204" y="361" style="font-family: Helvetica; font-size: 10px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,722) scale(1,-1)">HTTPS</text>
+			<polyline points="115 280, 115 240, 650 240, 650 280" style="stroke: rgb(70%,47%,8%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd; stroke-dasharray: 6, 4;"/>
+			<polygon points="650 280, 654 271, 646 271" style="stroke: rgb(70%,47%,8%); stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,47%,8%); fill-rule: evenodd;"/>
+			<text x="132" y="250" style="font-family: Helvetica; font-size: 11px;fill: rgb(34%,42%,47%); stroke:none;" transform="translate(0,500) scale(1,-1)">Manual DNS cutover selects standby; same name, port and trusted TLS identity</text>
+			<rect x="245" y="55" width="535" height="135" rx="12" ry="12" style="stroke: rgb(34%,42%,47%); stroke-linecap: butt; stroke-width: 1; fill: rgb(97%,98%,98%); fill-rule: evenodd; stroke-dasharray: 4, 3;"/>
+			<text x="263" y="165" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,330) scale(1,-1)">SHARED BACKEND POOL - plain HTTP / new TCP connections</text>
+			<rect x="263" y="70" width="230" height="74" rx="10" ry="10" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="279" y="117" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,234) scale(1,-1)">Backend A</text>
+			<text x="279" y="95" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,190) scale(1,-1)">Bineet: 10.7.17.47:3001</text>
+			<rect x="527" y="70" width="230" height="74" rx="10" ry="10" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1.4; fill: rgb(92%,95%,96%); fill-rule: evenodd;"/>
+			<text x="543" y="117" style="font-family: Helvetica-Bold; font-size: 15px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,234) scale(1,-1)">Backend B</text>
+			<text x="543" y="95" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,190) scale(1,-1)">Vridhi: 10.7.2.240:3002</text>
+			<polyline points="375 280, 375 212, 512 212, 512 190" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="512 190, 508 199, 516 199" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,41%,45%); fill-rule: evenodd;"/>
+			<polyline points="650 280, 650 212, 512 212" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 2; fill: None; fill-rule: evenodd;"/>
+			<polygon points="512 212, 521 216, 521 208" style="stroke: rgb(7%,41%,45%); stroke-linecap: butt; stroke-width: 1; fill: rgb(7%,41%,45%); fill-rule: evenodd;"/>
+			<text x="795" y="520" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,1040) scale(1,-1)">NORMAL DNS ANSWER</text>
+			<text x="795" y="497" style="font-family: Helvetica; font-size: 11px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,994) scale(1,-1)">app / api -&gt; 10.7.16.25</text>
+			<text x="795" y="455" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,910) scale(1,-1)">CUTOVER ANSWER</text>
+			<text x="795" y="432" style="font-family: Helvetica; font-size: 11px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,864) scale(1,-1)">app / api -&gt; 10.7.2.240</text>
+			<text x="795" y="390" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,780) scale(1,-1)">DNS TTL: 30 seconds</text>
+			<text x="795" y="347" style="font-family: Helvetica-Bold; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,694) scale(1,-1)">PF isolation tested</text>
+			<text x="795" y="328" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,656) scale(1,-1)">on each backend,</text>
+			<text x="795" y="309" style="font-family: Helvetica; font-size: 12px;fill: rgb(7%,20%,29%); stroke:none;" transform="translate(0,618) scale(1,-1)">then rolled back.</text>
+			<text x="32" y="23" style="font-family: Helvetica; font-size: 12px;fill: rgb(34%,42%,47%); stroke:none;" transform="translate(0,46) scale(1,-1)">DNS-service resilience + passive backend failover + manual edge migration. Automatic edge failure detection is not implemented.</text>
+		</g>
+	</g>
+</svg>

@@ -104,6 +104,12 @@ resolver, inspect `ipconfig getoption en0 domain_name_server` using the actual
 Wi-Fi interface; choose a reachable resolver from that network's DHCP settings.
 Project .test answers are local; unrelated internet DNS requires an upstream.
 
+Classroom update: if /etc/resolver/team1.test exists, update its nameserver lines
+to the two CURRENT DNS host IPs with sudo too. The helper intentionally does not
+write root-owned system resolver files. That per-domain file takes precedence
+over the general Wi-Fi DNS setting. Use SIR-LIVE-DEMO-CURRENT-IPS.md for the
+current session's complete resolver-aware demonstration commands.
+
 ## 4. Load current addresses in EVERY new Terminal
 
 From anywhere inside the repo:

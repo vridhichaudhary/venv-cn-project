@@ -23,6 +23,7 @@ claimed to be continuously active. DHCP addresses must be checked before reuse.
 
 | Start here | File |
 |---|---|
+| Current classroom demo scenes | [Start with Scene 00, then choose TTL, DNS, failover, isolation or migration by name](05-Phase2-Final-Report/SIR-LIVE-DEMO-CURRENT-IPS.md) |
 | Results and learning summaries | [Phase 2 report](05-Phase2-Final-Report/REPORT.md) / [printable PDF](output/pdf/Phase2-Final-Report.pdf) |
 | Evaluation-day commands | [Demo checklist](05-Phase2-Final-Report/DEMO-CHECKLIST.md) |
 | Viva study | [53 questions and answers](05-Phase2-Final-Report/VIVA-GUIDE.md) / [PDF](output/pdf/Viva-Guide.pdf) |
@@ -34,6 +35,13 @@ claimed to be continuously active. DHCP addresses must be checked before reuse.
 | Sanitized configuration snapshots | [Phase 2 configuration bundle](02-Configuration-Bundle/Phase2/README.md) |
 | Explanation and detailed procedure | [Phase 1 understanding / Phase 2 guide](03-Source-Code/PHASE2-GUIDE.md) |
 | Docker DNS setup / live record helpers | [DNS runbook](03-Source-Code/docker-dns/README.md) |
+
+The classroom session changed Anshuman's IP to 10.7.16.25 and Bineet's to
+10.7.17.47; Vridhi remains 10.7.2.240. Use live team.env and the current-demo guide
+for those addresses. The recorded report/table above retains the previous
+session's addresses. macOS on Anshuman required /etc/resolver/team1.test to route
+private-domain system lookups correctly. The current-demo guide uses that
+per-domain resolver consistently; it takes precedence over Wi-Fi DNS settings.
 
 ## Phase 1 — historical October deployment
 
